@@ -1,8 +1,9 @@
-function Button ({text}) {
+function Button ({text, OnClick}) {
     return (
-      <button onClick="{onClick()}" class="Button">{text}</button>
+      <button onClick="{onClick}" class="button is-primary is-large">{text}</button>
     )
   }
   
   
   export default Button;
+
