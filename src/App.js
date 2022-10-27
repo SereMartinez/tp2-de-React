@@ -2,6 +2,7 @@ import './App.css';
 import {BrowserRouter,Routes, Route} from 'react-router-dom'
 import Home from "./home";
 import Game from "./game";
+import 'bulma/css/bulma.min.css';
 
 
 function App() {
@@ -17,3 +18,4 @@ function App() {
 }
 
 export default App;
+
